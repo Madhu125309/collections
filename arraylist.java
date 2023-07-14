@@ -1,14 +1,14 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class arraylist {
     public static void main(String[] args) {
-        ArrayList al = new ArrayList();
-        al.add(10);
+        ArrayList<Integer> al1 = new ArrayList<Integer>();
+        ArrayList<String> al = new ArrayList<String>();
+        al1.add(10);
         al.add("madhu");
         al.add("45000.00");
         System.out.println(al);
-
+        System.out.println(al1);
         ArrayList<Integer> a = new ArrayList<Integer>();
         a.add(101);
         a.add(102);
@@ -24,8 +24,6 @@ public class arraylist {
         a1.add("sai");
         a1.add("dhanu");
         a1.add("yash");
-
-        Collections.sort(a1);
 
         for (String ename : a1) {
             System.out.println(ename);
